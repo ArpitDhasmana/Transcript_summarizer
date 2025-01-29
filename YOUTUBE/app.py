@@ -129,7 +129,7 @@ class AppWindow(QWidget):
 
 
 if __name__ == "__main__":
-    API_KEY = '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'
+    API_KEY = 'YOUR_GROJ_API_KEY'
     client = groq.Client(api_key=API_KEY)
 
     app = QApplication(sys.argv)
